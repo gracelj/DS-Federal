@@ -1,0 +1,1257 @@
+c_id,format,lcs
+1,State,Hawaii
+1,State,Idaho
+1,State,Kentucky
+1,State,Nebraska
+2,Language,Portuguese
+2,Language,Spanish
+2,Country,Zimbabwe
+3,Country,Haiti
+3,Country,Madagascar
+3,Country,Nepal
+4,State,Arkansas
+4,State,California
+4,State,District of Columbia
+4,State,Georgia
+4,Country,Guam
+4,Country,Guinea
+4,State,Hawaii
+4,State,Iowa
+4,State,Michigan
+4,State,North Carolina
+4,State,Northern Mariana Islands
+4,State,Puerto Rico
+4,State,South Carolina
+5,State,American Samoa
+5,State,Florida
+5,State,Hawaii
+5,State,Illinois
+5,State,Ohio
+5,State,Pennsylvania
+5,State,Texas
+6,State,Maryland
+6,State,Virginia
+7,State,Arizona
+7,State,Florida
+7,State,Hawaii
+7,State,Idaho
+7,State,Michigan
+7,Language,Spanish
+8,State,California
+8,State,Hawaii
+8,State,Idaho
+8,State,Massachusetts
+8,State,Puerto Rico
+9,State,American Samoa
+9,Country,Bermuda
+9,State,Delaware
+9,Country,DRC
+9,Country,Ethiopia
+9,State,Hawaii
+9,State,Idaho
+9,Country,Kenya
+9,State,Mississippi
+9,Country,Nigeria
+9,State,Pennsylvania
+9,Country,Rwanda
+9,Country,South Africa
+9,State,South Carolina
+9,Country,South Sudan
+9,Country,Swaziland
+9,Country,Tanzania
+9,Country,Uganda
+9,Country,Zambia
+9,Country,Zimbabwe
+10,State,Hawaii
+10,State,South Carolina
+11,State,Florida
+11,State,Iowa
+11,State,Kentucky
+11,State,Maryland
+11,State,Pennsylvania
+11,State,South Dakota
+11,State,Texas
+11,State,Virginia
+11,State,Washington
+12,State,District of Columbia
+12,State,Georgia
+12,State,Hawaii
+12,State,Idaho
+13,Country,South Africa
+14,Country,Angola
+14,Language,Arabic
+14,State,Arkansas
+14,Country,Benin
+14,Country,Botswana
+14,Country,Burkina Faso
+14,Country,Burundi
+14,Country,Cambodia
+14,State,Connecticut
+14,State,District of Columbia
+14,Country,Ethiopia
+14,Language,French
+14,Country,Ghana
+14,State,Hawaii
+14,State,Idaho
+14,State,Illinois
+14,Country,India
+14,Country,Ivory Coast
+14,Country,Jamaica
+14,Country,Kenya
+14,Country,Liberia
+14,State,Louisiana
+14,State,Michigan
+14,State,Montana
+14,Country,Morocco
+14,Country,Mozambique
+14,Country,Nepal
+14,State,New Jersey
+14,Country,Niger
+14,Country,Nigeria
+14,State,Ohio
+14,State,Pennsylvania
+14,Country,Sierra Leone
+14,Country,South Africa
+14,State,South Carolina
+14,Country,Tanzania
+14,Country,Thailand
+14,Country,Togo
+14,Country,Uganda
+14,State,Washington
+14,Country,Zambia
+14,Country,Zimbabwe
+15,State,Arkansas
+15,State,North Carolina
+15,State,Puerto Rico
+16,Country,Mexico
+16,Country,Netherlands
+16,Country,Thailand
+16,Country,United States
+17,State,Arkansas
+17,State,Connecticut
+17,State,Georgia
+17,State,Hawaii
+17,State,Idaho
+17,State,Iowa
+17,State,Louisiana
+17,Country,Malawi
+17,State,Pennsylvania
+17,Country,Rwanda
+17,Country,South Africa
+17,Country,Tanzania
+17,Country,Uganda
+18,Country,Abijan
+18,Country,Botswana
+18,State,District of Columbia
+18,Country,Ethiopia
+18,Country,Ghana
+18,Country,Guyana
+18,State,Hawaii
+18,State,Idaho
+18,Country,Ivory Coast
+18,Country,Kenya
+18,Country,Lesotho
+18,Country,Madagascar
+18,Country,Malawi
+18,Country,Namibia
+18,Country,Niger
+18,Country,Nigeria
+18,Country,Rwanda
+18,Country,South Africa
+18,Country,Uganda
+18,Country,Zambia
+21,State,American Samoa
+21,State,California
+21,State,Colorado
+21,State,Delaware
+21,State,District of Columbia
+21,State,Georgia
+21,State,Hawaii
+21,State,Idaho
+21,State,Indiana
+21,State,Massachusetts
+21,State,Mississippi
+21,State,Nebraska
+21,State,North Carolina
+21,State,North Dakota
+21,State,South Dakota
+22,State,Alaska
+22,State,Arizona
+22,State,Arkansas
+22,Country,Burundi
+22,State,California
+22,State,District of Columbia
+22,State,Florida
+22,Country,France
+22,Language,French
+22,State,Hawaii
+22,State,Idaho
+22,Language,Kinyarwanda
+22,Language,Kirundi
+22,State,Maine
+22,State,Maryland
+22,State,Massachusetts
+22,State,Missouri
+22,State,Ohio
+22,State,Pennsylvania
+22,Country,Rwanda
+22,State,South Dakota
+23,Site visit,Connecticut
+23,State,Florida
+23,State,Iowa
+23,Country,Jamaica
+23,State,Kentucky
+23,Country,Mexico
+23,State,Michigan
+23,Country,Mongolia
+23,State,New Mexico
+23,State,New York
+23,Country,Puerto Rico
+23,State,Rhode Island
+23,State,Virginia
+24,Country,Cambodia
+24,Country,Ethiopia
+24,Country,Guatemala
+24,Country,Malawi
+24,Country,Mexico
+24,Country,Mozambique
+24,Country,Namibia
+24,Country,Niger
+24,Country,Nigeria
+24,Language,Portuguese
+24,Language,Spanish
+24,Country,Uganda
+24,Country,Zambia
+25,State,District of Columbia
+25,State,Florida
+25,State,Georgia
+25,State,Hawaii
+25,State,Idaho
+25,State,Maryland
+25,State,Massachusetts
+26,State,California
+26,State,Colorado
+26,State,District of Columbia
+26,State,Idaho
+26,State,Illinois
+26,State,Louisiana
+26,State,Oregon
+26,State,Pennsylvania
+26,State,Rhode Island
+26,State,Texas
+27,State,Florida
+27,State,Hawaii
+27,State,Idaho
+28,State,Arkansas
+28,State,California
+28,State,Colorado
+28,State,District of Columbia
+28,State,Hawaii
+28,State,Illinois
+28,State,Louisiana
+28,State,Maryland
+28,State,Oregon
+28,State,Puerto Rico
+28,State,Texas
+28,State,Virginia
+29,State,Hawaii
+29,State,Idaho
+29,State,Illinois
+29,State,Wisconsin
+30,State,Arkansas
+30,State,Delaware
+30,State,Idaho
+31,State,Connecticut
+31,State,Hawaii
+31,State,New Jersey
+31,State,New York
+31,State,Pennsylvania
+31,State,Washington
+32,State,California
+32,State,Hawaii
+32,State,Idaho
+32,State,Pennsylvania
+33,State,California
+33,State,District of Columbia
+33,State,Hawaii
+33,State,Idaho
+33,State,Massachusetts
+33,State,Mississippi
+33,State,Northern Mariana Islands
+33,State,Ohio
+33,State,Puerto Rico
+33,Country,Uganda
+33,State,Wisconsin
+34,State,Arkansas
+34,State,Illinois
+34,Country,India
+34,State,Maryland
+34,State,Massachusetts
+34,State,Nevada
+34,State,Pennsylvania
+35,State,Florida
+35,State,Georgia
+35,State,Maine
+35,State,North Carolina
+35,State,Oregon
+35,Country,United States
+36,State,American Samoa
+36,State,California
+36,State,District of Columbia
+36,State,Florida
+36,State,Hawaii
+36,State,Idaho
+36,State,Maryland
+36,State,Minnesota
+37,State,District of Columbia
+37,State,Georgia
+37,State,Hawaii
+37,State,Idaho
+37,Country,Ireland
+37,State,Mississippi
+37,Country,Singapore
+37,Country,South Africa
+38,Country,Congo
+38,Country,Georgia
+38,Country,Guinea
+38,Country,Kenya
+38,Country,Malawi
+38,Country,Niger
+38,Country,Nigeria
+38,Country,Papua New Guinea
+38,Country,Peru
+38,Country,Uganda
+39,State,Alabama
+39,State,American Samoa
+39,State,California
+39,State,Colorado
+39,State,Delaware
+39,State,Georgia
+39,State,Hawaii
+39,State,Indiana
+39,State,Iowa
+39,State,Louisiana
+39,State,Maine
+39,State,North Carolina
+39,State,North Dakota
+39,State,Oregon
+39,State,Rhode Island
+39,State,Virginia
+40,Country,Ethiopia
+41,Country,Australia
+41,State,Florida
+41,State,New Mexico
+41,Country,New Zealand
+41,Language,Spanish
+41,State,Texas
+42,State,California
+42,State,District of Columbia
+42,State,Hawaii
+42,State,Idaho
+42,State,Illinois
+42,State,National
+43,State,Alabama
+43,State,American Samoa
+43,State,Colorado
+43,State,Connecticut
+43,State,Delaware
+43,State,Florida
+43,State,Georgia
+43,State,Hawaii
+43,State,Indiana
+43,State,Maine
+43,State,National
+43,State,New Mexico
+43,State,North Carolina
+43,State,North Dakota
+43,State,Oregon
+43,State,Puerto Rico
+43,State,Rhode Island
+43,State,Texas
+43,State,Virgin Islands
+43,State,Virginia
+44,State,California
+44,State,District of Columbia
+44,State,Florida
+44,State,Georgia
+44,State,Louisiana
+44,State,Rhode Island
+45,State,Arkansas
+45,State,California
+45,State,Georgia
+45,State,Hawaii
+45,State,Idaho
+45,State,Massachusetts
+45,State,New York
+46,State,Alabama
+46,Country,Burundi
+46,State,District of Columbia
+46,State,Florida
+46,Language,French
+46,State,Idaho
+46,State,Illinois
+46,State,Indiana
+46,Country,Liberia
+46,State,Maine
+46,State,Maryland
+46,State,North Carolina
+46,State,Ohio
+46,State,Pennsylvania
+46,Language,Spanish
+46,State,Virginia
+46,State,Washington
+47,State,District of Columbia
+47,State,Hawaii
+47,State,Idaho
+47,State,Illinois
+47,State,Maryland
+47,Country,United States
+48,State,American Samoa
+48,State,Arizona
+48,State,Florida
+48,State,Maryland
+48,State,Minnesota
+48,State,Pennsylvania
+48,State,Texas
+49,State,American Samoa
+49,State,Arkansas
+49,State,District of Columbia
+49,State,Florida
+49,State,Illinois
+49,Country,India
+49,State,New Jersey
+49,State,Oregon
+49,State,Wisconsin
+50,Country,Haiti
+50,Country,South Africa
+50,Country,Ukraine
+51,State,American Samoa
+51,State,Delaware
+51,State,District of Columbia
+51,State,Hawaii
+51,State,Idaho
+51,State,Maryland
+51,State,New Hampshire
+51,State,North Carolina
+51,State,Pennsylvania
+52,State,Alaska
+52,State,Delaware
+52,State,Hawaii
+52,State,Idaho
+52,Country,India
+52,State,Maryland
+52,State,Oklahoma
+52,State,Pennsylvania
+52,State,Washington
+53,Country,Bangladesh
+53,State,California
+53,Language,Chinese
+53,State,District of Columbia
+53,Country,Dominican Republic
+53,State,Florida
+53,State,Illinois
+53,Country,Italy
+53,Country,Japan
+53,Country,Kalomo
+53,Country,Libya
+53,State,Louisiana
+53,State,Maryland
+53,State,Massachusetts
+53,Country,Mongolia
+53,Country,Pakistan
+53,Country,Puerto Rico
+53,Language,Spanish
+53,Country,Sri Lanka
+53,Country,Uganda
+53,State,Virginia
+53,State,Wisconsin
+53,Country,Zambia
+54,State,American Samoa
+54,State,Arkansas
+54,State,California
+54,State,District of Columbia
+54,State,Florida
+54,State,Hawaii
+54,State,Idaho
+54,State,Illinois
+54,Country,India
+54,State,Massachusetts
+54,State,Pennsylvania
+54,State,Puerto Rico
+54,State,Virginia
+55,State,American Samoa
+55,State,Arkansas
+55,State,California
+55,State,District of Columbia
+55,State,Florida
+55,State,Hawaii
+55,State,Idaho
+55,State,Maryland
+55,State,New York
+55,State,Pennsylvania
+55,State,Puerto Rico
+56,State,Florida
+56,State,Pennsylvania
+56,State,Texas
+56,State,Utah
+56,State,Washington
+57,State,Colorado
+57,State,Delaware
+57,State,District of Columbia
+57,State,Florida
+57,State,Georgia
+57,Country,Guyana
+57,State,Hawaii
+57,State,Idaho
+57,Country,India
+57,Country,Mali
+57,State,Maryland
+57,State,South Carolina
+57,Country,Uganda
+58,State,Alabama
+58,Site visit,Florida
+58,State,Indiana
+58,State,North Carolina
+58,State,Pennsylvania
+58,Country,Puerto Rico
+58,Site visit,South Dakota
+58,Language,Spanish
+58,State,Virgin Islands
+59,State,American Samoa
+59,State,California
+59,State,Hawaii
+59,State,Idaho
+59,State,Massachusetts
+59,State,Northern Mariana Islands
+59,State,Puerto Rico
+60,Country,Argentina
+60,State,District of Columbia
+60,Country,El Salvador
+60,State,Idaho
+60,State,Maryland
+60,State,Nebraska
+60,State,North Carolina
+60,Language,Spanish
+61,State,Connecticut
+61,State,Georgia
+61,State,Illinois
+61,Country,India
+61,State,Michigan
+61,State,Wisconsin
+62,Language,Creole
+62,Country,Ethiopia
+62,Language,French
+62,Country,Haiti
+62,Country,Niger
+62,Country,Nigeria
+62,Country,Uganda
+63,State,District of Columbia
+63,Language,French
+63,State,Hawaii
+63,Country,Sierra Leone
+64,State,American Samoa
+64,State,California
+64,State,District of Columbia
+64,State,Georgia
+64,State,Hawaii
+64,State,Idaho
+64,State,Michigan
+64,State,Oklahoma
+65,Country,Belgium
+66,State,Alabama
+66,State,California
+66,State,Colorado
+66,State,Hawaii
+66,State,Kansas
+66,State,National
+66,State,New Hampshire
+66,State,North Carolina
+66,State,Pennsylvania
+66,State,Virginia
+67,State,District of Columbia
+67,State,Florida
+67,State,Idaho
+67,State,Illinois
+67,State,Kentucky
+67,State,Maryland
+67,State,Massachusetts
+67,State,New Jersey
+67,State,Texas
+68,State,Colorado
+68,State,Massachusetts
+68,State,Mississippi
+68,State,Montana
+69,State,Arkansas
+69,State,California
+69,State,Idaho
+69,State,Maine
+69,State,Mississippi
+69,State,Nebraska
+69,State,North Carolina
+69,Language,Spanish
+70,State,District of Columbia
+70,State,Georgia
+70,State,Hawaii
+70,State,Idaho
+70,State,Maryland
+70,State,New Hampshire
+70,State,Pennsylvania
+71,State,American Samoa
+71,State,District of Columbia
+71,State,Georgia
+71,State,Hawaii
+71,State,Idaho
+71,State,Maryland
+71,State,Michigan
+71,State,North Carolina
+71,State,Oklahoma
+71,State,South Carolina
+72,State,Arkansas
+72,State,California
+72,State,Hawaii
+72,State,Idaho
+72,State,Maryland
+72,State,Massachusetts
+72,State,Michigan
+72,State,Pennsylvania
+72,State,Rhode Island
+72,State,Virginia
+72,State,Washington
+73,State,Arkansas
+73,Country,Botswana
+73,Country,Cambodia
+73,State,Colorado
+73,Language,French
+73,State,Georgia
+73,Country,Guinea
+73,State,Hawaii
+73,State,Idaho
+73,State,North Carolina
+73,Country,Papua New Guinea
+73,State,Puerto Rico
+73,Country,South Sudan
+73,Country,Sudan
+73,Country,Ukraine
+73,Country,United States
+73,Country,Zimbabwe
+74,State,Colorado
+74,State,District of Columbia
+74,State,Georgia
+74,State,Kentucky
+74,State,Massachusetts
+74,State,North Carolina
+74,State,Tennessee
+74,State,Texas
+74,State,Virginia
+74,State,Washington
+75,State,California
+75,State,Hawaii
+75,State,Idaho
+75,State,National
+75,State,Washington
+76,State,American Samoa
+76,Country,Belgium
+76,State,California
+76,State,District of Columbia
+76,Country,Ethiopia
+76,State,Florida
+76,State,Hawaii
+76,State,Idaho
+76,State,Illinois
+76,State,Maryland
+76,State,National
+76,State,Nebraska
+76,Country,Uganda
+76,Country,United States
+76,Country,Zambia
+77,State,American Samoa
+77,State,Arkansas
+77,Country,Benin
+77,Country,Burundi
+77,State,California
+77,State,Colorado
+77,Country,Ethiopia
+77,State,Hawaii
+77,State,Idaho
+77,State,Indiana
+77,State,Iowa
+77,Country,Kenya
+77,Country,Malawi
+77,Country,Mali
+77,State,Nebraska
+77,Country,Niger
+77,Country,Nigeria
+77,Country,South Sudan
+77,Country,Sudan
+77,Country,Uganda
+77,Country,Zambia
+78,Country,Australia
+78,State,California
+78,State,Connecticut
+78,State,Hawaii
+78,State,Idaho
+78,Country,Kenya
+78,Country,Malawi
+78,State,Missouri
+78,State,Montana
+78,State,Nebraska
+78,Country,Niger
+78,Country,Nigeria
+78,State,Ohio
+78,Country,Rwanda
+78,Country,South Africa
+78,State,South Dakota
+78,Country,Swaziland
+78,Country,Uganda
+79,State,American Samoa
+79,State,District of Columbia
+79,Country,India
+79,State,South Dakota
+79,Country,Switzerland
+80,State,California
+80,State,Delaware
+80,State,District of Columbia
+80,State,Hawaii
+80,State,Idaho
+80,State,Nebraska
+80,State,North Carolina
+80,State,Ohio
+80,Language,Spanish
+81,State,Florida
+81,State,Mississippi
+81,State,Montana
+81,State,New York
+81,State,Pennsylvania
+81,State,South Dakota
+82,State,Idaho
+82,State,Maine
+82,State,Maryland
+82,State,Mississippi
+82,State,New Hampshire
+82,State,Pennsylvania
+83,State,Alabama
+83,State,California
+83,State,Connecticut
+83,State,Florida
+83,State,Hawaii
+83,State,Idaho
+83,State,Indiana
+83,State,Maryland
+83,State,Minnesota
+83,State,New Jersey
+83,State,New York
+83,State,Pennsylvania
+83,State,Puerto Rico
+83,State,Rhode Island
+83,State,Virginia
+84,State,Arkansas
+84,State,California
+84,State,Connecticut
+84,State,District of Columbia
+84,State,Georgia
+84,Country,Ghana
+84,Country,Guyana
+84,State,Hawaii
+84,State,Idaho
+84,Country,Kenya
+84,State,Michigan
+84,Country,Namibia
+84,State,New Jersey
+84,Country,Niger
+84,Country,Nigeria
+84,State,North Carolina
+84,State,Pennsylvania
+84,Country,Rwanda
+84,Country,Turkey
+85,State,American Samoa
+85,State,Arkansas
+85,State,California
+85,State,District of Columbia
+85,State,Florida
+85,State,Michigan
+85,State,Mississippi
+85,State,North Carolina
+85,State,Pennsylvania
+85,State,Virgin Islands
+86,State,Arkansas
+86,Country,Botswana
+86,State,District of Columbia
+86,State,Hawaii
+86,State,Idaho
+86,State,Maryland
+86,State,New Hampshire
+86,State,North Carolina
+86,Country,Philippines
+86,Country,South Africa
+86,State,South Carolina
+86,Language,Spanish
+87,State,Arkansas
+87,State,California
+87,State,District of Columbia
+87,State,Idaho
+87,State,Illinois
+87,State,Kentucky
+87,State,Maine
+87,State,Maryland
+87,State,New Hampshire
+87,State,North Carolina
+87,State,Pennsylvania
+87,State,Vermont
+88,State,Arkansas
+88,State,Colorado
+88,State,Connecticut
+88,State,District of Columbia
+88,State,Florida
+88,State,Illinois
+88,State,Maryland
+88,State,Massachusetts
+88,State,Michigan
+88,State,National
+88,State,Ohio
+88,State,Pennsylvania
+88,State,Virginia
+88,State,Washington
+89,State,District of Columbia
+89,State,Illinois
+89,Site visit,Massachusetts
+89,State,Michigan
+89,State,North Carolina
+89,Site visit,North Dakota
+89,Site visit,Texas
+90,State,California
+90,State,District of Columbia
+90,State,Georgia
+90,State,Hawaii
+90,State,Idaho
+90,State,Illinois
+90,State,Massachusetts
+90,State,Northern Mariana Islands
+90,State,Puerto Rico
+94,Country,Guyana
+94,Country,Jamaica
+95,Continent,Africa
+96,Country,Botswana
+96,Country,Ethiopia
+96,Country,Haiti
+96,Country,Jamaica
+96,Country,South Africa
+96,Country,Zambia
+97,Language,Kiswahili
+97,Language,Luo
+104,Language,Creole
+104,Language,English
+104,Language,French
+104,Language,German
+104,Language,Spanish
+105,Country,Lesotho
+106,Language,Spanish
+107,Country,Botswana
+107,Language,English
+107,Country,Namibia
+107,Language,Setswana
+107,Country,South Africa
+107,Country,Tanzania
+109,Country,Dominican Republic
+109,Country,Ethiopia
+109,Country,Kenya
+109,Country,Mexico
+109,Country,Nigeria
+109,Country,Panama
+109,Country,Spain
+109,Language,Spanish
+109,Country,Uganda
+109,Country,Zambia
+111,Language,Portuguese
+111,Language,Russian
+111,Language,Swedish
+112,Country,Brazil
+112,Country,Mozambique
+112,Language,Portuguese
+112,Language,Spanish
+112,Country,Suriname
+112,Country,United States
+113,Country,Guyana
+113,Country,Jamaica
+113,Country,Senegal
+113,Country,Swaziland
+113,Country,Trinidad and Tobago
+114,Country,Congo
+114,Language,French
+114,Country,Kenya
+114,Country,Madagascar
+114,Country,Mali
+116,Country,Brazil
+116,Country,China
+116,Country,Congo
+116,Country,Ethiopia
+116,Country,Guatemala
+116,Country,Guyana
+116,Country,India
+116,Country,Kazakhstan
+116,Country,Kenya
+116,Country,Malawi
+116,Country,Mozambique
+116,Country,Namibia
+116,Country,Nicaragua
+116,Country,Panama
+116,Language,Portuguese
+116,Country,Rwanda
+116,Country,South Africa
+116,Country,Thailand
+117,Country,France
+117,Language,French
+117,Country,Peru
+117,Language,Spanish
+119,Language,English
+119,Country,Liberia
+119,Country,South Africa
+123,Language,Creole
+123,Language,French
+123,Language,Spanish
+127,Country,Barbados
+127,Country,Jamaica
+127,Country,Namibia
+127,Country,South Africa
+127,Country,Suriname
+127,Country,Trinidad and Tobago
+129,Country,Antarctica
+129,Country,Saudi Arabia
+129,Country,South Africa
+131,Language,Amharic
+131,Country,Ethiopia
+131,Country,Rwanda
+131,Language,Tigrigna
+133,Country,Rwanda
+133,Country,Somalia
+133,Country,Sudan
+133,Country,Uganda
+135,Country,Peru
+137,Country,Dominica
+137,Country,Dominican Republic
+137,Language,English
+137,Language,French
+137,Country,Peru
+137,Language,Spanish
+137,Country,Swaziland
+139,Language,Amharic
+139,Language,English
+139,Country,Eritrea
+139,Country,Kenya
+139,Country,South Africa
+139,Language,Tigrigna
+142,Country,Belize
+142,Language,French
+142,Language,Hindi
+142,Country,India
+142,Country,Kenya
+142,Country,Mozambique
+142,Country,Niger
+142,Country,Singapore
+142,Country,Uganda
+143,Language,English
+143,Country,Guyana
+143,Country,Jamaica
+143,Country,Suriname
+144,Country,Benin
+144,Country,Morocco
+144,Country,Togo
+146,Language,English
+146,Language,Yoruba
+147,Country,Botswana
+147,Country,Brazil
+147,Country,France
+147,Language,French
+147,Country,Germany
+147,Country,Ghana
+147,Country,Guinea
+147,Country,Kenya
+147,Country,Liberia
+147,Country,Malawi
+147,Language,Portuguese
+147,Country,Rwanda
+147,Country,Senegal
+147,Country,Sierra Leone
+147,Country,South Africa
+147,Language,Spanish
+147,Country,Switzerland
+147,Language,Tigrinya
+149,Country,Botswana
+149,Country,Cameroon
+149,Country,Costa Rica
+149,Country,El Salvador
+149,Country,Ethiopia
+149,Country,Kenya
+149,Country,Malawi
+149,Country,Mozambique
+149,Country,Namibia
+149,Country,Pakistan
+149,Country,South Africa
+149,Language,Spanish
+149,Country,Zambia
+149,Country,Zimbabwe
+150,Country,Ghana
+150,Country,India
+150,Language,Malayalam
+150,Country,Zambia
+152,Country,Cambodia
+152,Country,Cameroon
+152,Country,Haiti
+152,Country,India
+152,Country,Jamaica
+152,Country,Lesotho
+152,Country,Mozambique
+152,Country,Nepal
+152,Country,Niger
+152,Country,Nigeria
+152,Country,Thailand
+153,Country,Belize
+153,Country,Ethiopia
+153,Country,Haiti
+153,Country,Mozambique
+153,Language,Portuguese
+153,Language,Spanish
+153,Country,Zambia
+154,Country,South Africa
+155,Country,Tanzania
+159,Country,Bahamas
+159,Country,Belize
+159,Country,Georgia
+159,Country,Guyana
+159,Country,Jamaica
+159,Country,Kenya
+159,Country,Mozambique
+159,Country,Niger
+159,Country,Nigeria
+159,Language,Russian
+159,Country,Suriname
+159,Country,Swaziland
+159,Country,Uzbekistan
+160,Country,Qatar
+160,Country,South Africa
+162,Language,English
+162,Language,Tagalog
+164,Language,English
+164,Language,French
+164,Language,German
+165,Country,Eritrea
+165,Country,Kenya
+165,Language,Swahili
+165,Language,Tigrinya
+166,Continent,Africa
+168,Language,Danish
+168,Language,English
+168,Country,South Africa
+169,Country,Botswana
+169,Country,Malawi
+169,Country,Mali
+169,Country,Mexico
+169,Country,Namibia
+169,Country,Niger
+169,Country,Nigeria
+169,Country,Peru
+169,Country,South Africa
+169,Country,Uganda
+169,Country,Zambia
+169,Country,Zimbabwe
+170,Country,Congo
+170,Country,Liberia
+170,Country,Sierra Leone
+170,Country,South Sudan
+170,Country,Sudan
+171,Country,Philippines
+171,Country,Uganda
+172,Language,English
+172,Language,French
+173,Language,French
+174,Country,India
+174,Country,Kenya
+174,Country,Mozambique
+174,Country,Niger
+174,Country,Nigeria
+174,Country,South Africa
+174,Country,Zambia
+177,Country,Congo
+177,Country,Germany
+177,Country,Kenya
+177,Country,Malawi
+177,Country,South Africa
+177,Country,South Sudan
+177,Country,Sudan
+177,Country,Uganda
+177,Country,Zambia
+180,Country,Botswana
+180,Country,Guinea
+180,Country,Papua New Guinea
+180,Country,South Africa
+181,Site visit,Puerto Rico
+182,Country,Canada
+182,Country,Ethiopia
+182,Country,Haiti
+182,Country,Kenya
+182,Country,Ukraine
+183,Country,Bangladesh
+183,Country,Belgium
+183,Country,China
+183,Country,Georgia
+183,Country,India
+183,Country,South Africa
+184,Language,French
+184,Country,Guatemala
+184,Country,Kenya
+184,Country,Lesotho
+184,Country,Rwanda
+184,Country,Senegal
+184,Country,South Africa
+184,Country,Thailand
+184,Country,Uganda
+184,Country,Zambia
+185,Country,Angola
+185,Country,Congo
+185,Country,Kenya
+185,Country,Liberia
+185,Country,Malawi
+185,Country,Mozambique
+185,Country,Niger
+185,Country,Nigeria
+185,Country,Zambia
+186,Continent,Africa
+186,Language,English
+186,Language,French
+186,Language,Portuguese
+186,Language,Spanish
+187,Country,Bangladesh
+187,Country,Cambodia
+187,Country,Honduras
+187,Country,Indonesia
+187,Language,Spanish
+187,Country,Thailand
+189,Country,Mozambique
+189,Country,Tanzania
+190,Language,English
+190,Language,Spanish
+191,Country,Brazil
+191,Country,Jamaica
+191,Country,Peru
+191,Country,South Africa
+191,Country,Uganda
+191,Country,Zambia
+193,Country,Bangladesh
+193,Language,Bengali
+193,Country,Djibouti
+193,Language,English
+193,Language,Hindi
+193,Country,Kenya
+193,Country,Malawi
+193,Country,Niger
+193,Country,Nigeria
+193,Country,South Africa
+193,Country,South Sudan
+193,Country,Sudan
+193,Country,Uganda
+193,Country,Ukraine
+193,Country,Zambia
+195,Language,Bemba
+195,Language,Nyanja
+195,Country,South Africa
+195,Country,Trinidad and Tobago
+195,Country,Zambia
+196,Language,French
+196,Language,Spanish
+197,Country,South Africa
+199,Country,Guyana
+200,Country,Haiti
+200,Country,Japan
+200,Country,Rwanda
+200,Country,Sierra Leone
+200,Country,South Africa
+201,Country,Dominica
+201,Country,Dominican Republic
+201,Country,Ecuador
+202,Country,Bahamas
+202,Country,Bangladesh
+202,Country,Burkina Faso
+202,Country,Congo
+202,Country,Egypt
+202,Country,El Salvador
+202,Country,Ethiopia
+202,Country,Guyana
+202,Country,Jamaica
+202,Country,Kenya
+202,Country,Lesotho
+202,Country,Malawi
+202,Country,Mexico
+202,Country,Mozambique
+202,Country,Namibia
+202,Country,Niger
+202,Country,Nigeria
+202,Country,Pakistan
+202,Language,Portuguese
+202,Country,Sierra Leone
+202,Country,South Africa
+202,Language,Spanish
+202,Language,Swahili
+202,Country,Swaziland
+202,Country,Trinidad and Tobago
+202,Country,Uganda
+202,Country,Zambia
+203,Country,Barbados
+203,Country,Belize
+203,Country,Botswana
+203,Country,Burkina Faso
+203,Country,Cambodia
+203,Country,Ethiopia
+203,Language,French
+203,Country,Ghana
+203,Country,Malawi
+203,Country,Mozambique
+203,Country,Rwanda
+203,Country,South Africa
+203,Country,Suriname
+203,Country,Swaziland
+204,Country,Ethiopia
+204,Country,Lesotho
+204,Country,Malawi
+204,Country,Mozambique
+204,Country,South Africa
+204,Country,Zambia
+205,Country,Burkina Faso
+205,Country,Congo
+205,Language,English
+205,Language,French
+205,Country,Georgia
+205,Country,Kyrgyzstan
+205,Language,Spanish
+205,Country,Sri Lanka
+205,Country,Tajikistan
+205,Country,Tunisia
+205,Country,Ukraine
+206,Continent,Africa
+208,Country,Ecuador
+208,Country,Ethiopia
+208,Country,Ghana
+208,Country,Guatemala
+208,Country,Indonesia
+208,Country,Kenya
+208,Country,Mexico
+208,Country,South Africa
+208,Country,Zambia
+212,Country,Ethiopia
+212,Country,Kenya
+213,Site visit,Hawaii
+213,Site visit,New Mexico
+218,Site visit,Wisconsin
+219,Site visit,Florida
+219,Site visit,Puerto Rico
+222,Site visit,Indiana
+223,Language,Spanish
+224,Site visit,Maine
+224,Site visit,South Dakota
+226,Site visit,Connecticut
+226,Site visit,Hawaii
+228,Site visit,Wisconsin
+229,Site visit,Indiana
+231,Site visit,Texas
+233,Site visit,New Mexico
+234,Site visit,Maine
+234,Site visit,Massachusetts
+235,Site visit,North Dakota

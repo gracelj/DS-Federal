@@ -1,0 +1,962 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.0621.1547                               -->
+<workbook original-version='18.1' source-build='2019.2.1 (20192.19.0621.1547)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Certificate+ (Consultants Database_v3)' inline='true' name='federated.0u0p2701atkib719cdcn8068njey' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Consultants Database_v3' name='excel-direct.0memply13eg5p811t20d112gf42w'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/Jing Li/Desktop/cv2db/project/Inputs/Consultants Database_v3.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation join='left' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[Consultants].[c_id]' />
+              <expression op='[Target Population].[c_id]' />
+            </expression>
+          </clause>
+          <relation join='left' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[Consultants].[c_id]' />
+                <expression op='[Federal Project].[c_id]' />
+              </expression>
+            </clause>
+            <relation join='inner' type='join'>
+              <clause type='join'>
+                <expression op='='>
+                  <expression op='[Expertise].[expertise]' />
+                  <expression op='[Expertise_LOV].[expertise]' />
+                </expression>
+              </clause>
+              <relation join='left' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[Consultants].[c_id]' />
+                    <expression op='[Expertise].[c_id]' />
+                  </expression>
+                </clause>
+                <relation join='left' type='join'>
+                  <clause type='join'>
+                    <expression op='='>
+                      <expression op='[Consultants].[c_id]' />
+                      <expression op='[Education].[c_id]' />
+                    </expression>
+                  </clause>
+                  <relation join='left' type='join'>
+                    <clause type='join'>
+                      <expression op='='>
+                        <expression op='[Consultants].[c_id]' />
+                        <expression op='[Cultural competency].[c_id]' />
+                      </expression>
+                    </clause>
+                    <relation join='right' type='join'>
+                      <clause type='join'>
+                        <expression op='='>
+                          <expression op='[Certificate].[c_id]' />
+                          <expression op='[Consultants].[c_id]' />
+                        </expression>
+                      </clause>
+                      <relation connection='excel-direct.0memply13eg5p811t20d112gf42w' name='Certificate' table='[Certificate$]' type='table'>
+                        <columns gridOrigin='A1:C60:no:A1:C60:1' lost='0' outcome='1' processed='69'>
+                          <column datatype='integer' name='c_id' ordinal='0' />
+                          <column datatype='string' name='certificate' ordinal='1' />
+                          <column datatype='integer' name='yr' ordinal='2' />
+                        </columns>
+                      </relation>
+                      <relation connection='excel-direct.0memply13eg5p811t20d112gf42w' name='Consultants' table='[Consultants$]' type='table'>
+                        <columns gridOrigin='A1:R243:no:A1:R243:1' lost='0' outcome='1' processed='304'>
+                          <column datatype='integer' name='c_id' ordinal='0' />
+                          <column datatype='string' name='l_name' ordinal='1' />
+                          <column datatype='string' name='f_name' ordinal='2' />
+                          <column datatype='string' name='labor_category' ordinal='3' />
+                          <column datatype='string' name='title' ordinal='4' />
+                          <column datatype='string' name='category' ordinal='5' />
+                          <column datatype='string' name='company' ordinal='6' />
+                          <column datatype='string' name='email' ordinal='7' />
+                          <column datatype='string' name='phone_no' ordinal='8' />
+                          <column datatype='string' name='data_source' ordinal='9' />
+                          <column datatype='string' name='zipcode' ordinal='10' />
+                          <column datatype='string' name='address' ordinal='11' />
+                          <column datatype='string' name='city' ordinal='12' />
+                          <column datatype='string' name='state' ordinal='13' />
+                          <column datatype='string' name='country' ordinal='14' />
+                          <column datatype='string' name='cul_competency' ordinal='15' />
+                          <column datatype='string' name='if_interested' ordinal='16' />
+                          <column datatype='string' name='notes' ordinal='17' />
+                        </columns>
+                      </relation>
+                    </relation>
+                    <relation connection='excel-direct.0memply13eg5p811t20d112gf42w' name='Cultural competency' table='[&apos;Cultural competency$&apos;]' type='table'>
+                      <columns gridOrigin='A1:C1257:no:A1:C1257:1' lost='0' outcome='1' processed='1256'>
+                        <column datatype='integer' name='c_id' ordinal='0' />
+                        <column datatype='string' name='format' ordinal='1' />
+                        <column datatype='string' name='lcs' ordinal='2' />
+                      </columns>
+                    </relation>
+                  </relation>
+                  <relation connection='excel-direct.0memply13eg5p811t20d112gf42w' name='Education' table='[Education$]' type='table'>
+                    <columns gridOrigin='A1:D438:no:A1:D438:1' lost='0' outcome='1' processed='668'>
+                      <column datatype='integer' name='c_id' ordinal='0' />
+                      <column datatype='string' name='degree_title' ordinal='1' />
+                      <column datatype='string' name='defree_title' ordinal='2' />
+                      <column datatype='integer' name='grad_ yr' ordinal='3' />
+                    </columns>
+                  </relation>
+                </relation>
+                <relation connection='excel-direct.0memply13eg5p811t20d112gf42w' name='Expertise' table='[Expertise$]' type='table'>
+                  <columns gridOrigin='A1:C926:no:A1:C926:1' lost='0' outcome='1' processed='962'>
+                    <column datatype='integer' name='c_id' ordinal='0' />
+                    <column datatype='string' name='expertise' ordinal='1' />
+                    <column datatype='integer' name='yrs_of_exp' ordinal='2' />
+                  </columns>
+                </relation>
+              </relation>
+              <relation connection='excel-direct.0memply13eg5p811t20d112gf42w' name='Expertise_LOV' table='[Expertise_LOV$]' type='table'>
+                <columns gridOrigin='A1:B40:no:A1:B40:1' lost='0' outcome='1' processed='0'>
+                  <column datatype='string' name='expertise' ordinal='0' />
+                  <column datatype='string' name='exp_area' ordinal='1' />
+                </columns>
+              </relation>
+            </relation>
+            <relation connection='excel-direct.0memply13eg5p811t20d112gf42w' name='Federal Project' table='[&apos;Federal Project$&apos;]' type='table'>
+              <columns gridOrigin='A1:B211:no:A1:B211:1' lost='0' outcome='1' processed='210'>
+                <column datatype='integer' name='c_id' ordinal='0' />
+                <column datatype='string' name='project' ordinal='1' />
+              </columns>
+            </relation>
+          </relation>
+          <relation connection='excel-direct.0memply13eg5p811t20d112gf42w' name='Target Population' table='[&apos;Target Population$&apos;]' type='table'>
+            <columns gridOrigin='A1:B332:no:A1:B332:1' lost='0' outcome='1' processed='331'>
+              <column datatype='integer' name='c_id' ordinal='0' />
+              <column datatype='string' name='target_pop' ordinal='1' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[address]' value='[Consultants].[address]' />
+          <map key='[c_id (Consultants)]' value='[Consultants].[c_id]' />
+          <map key='[c_id (Cultural competency)]' value='[Cultural competency].[c_id]' />
+          <map key='[c_id (Education)]' value='[Education].[c_id]' />
+          <map key='[c_id (Expertise)]' value='[Expertise].[c_id]' />
+          <map key='[c_id (Federal Project)]' value='[Federal Project].[c_id]' />
+          <map key='[c_id (Target Population)]' value='[Target Population].[c_id]' />
+          <map key='[c_id]' value='[Certificate].[c_id]' />
+          <map key='[category]' value='[Consultants].[category]' />
+          <map key='[certificate]' value='[Certificate].[certificate]' />
+          <map key='[city]' value='[Consultants].[city]' />
+          <map key='[company]' value='[Consultants].[company]' />
+          <map key='[country]' value='[Consultants].[country]' />
+          <map key='[cul_competency]' value='[Consultants].[cul_competency]' />
+          <map key='[data_source]' value='[Consultants].[data_source]' />
+          <map key='[defree_title]' value='[Education].[defree_title]' />
+          <map key='[degree_title]' value='[Education].[degree_title]' />
+          <map key='[email]' value='[Consultants].[email]' />
+          <map key='[exp_area]' value='[Expertise_LOV].[exp_area]' />
+          <map key='[expertise (Expertise!LOV)]' value='[Expertise_LOV].[expertise]' />
+          <map key='[expertise]' value='[Expertise].[expertise]' />
+          <map key='[f_name]' value='[Consultants].[f_name]' />
+          <map key='[format]' value='[Cultural competency].[format]' />
+          <map key='[grad_ yr]' value='[Education].[grad_ yr]' />
+          <map key='[if_interested]' value='[Consultants].[if_interested]' />
+          <map key='[l_name]' value='[Consultants].[l_name]' />
+          <map key='[labor_category]' value='[Consultants].[labor_category]' />
+          <map key='[lcs]' value='[Cultural competency].[lcs]' />
+          <map key='[notes]' value='[Consultants].[notes]' />
+          <map key='[phone_no]' value='[Consultants].[phone_no]' />
+          <map key='[project]' value='[Federal Project].[project]' />
+          <map key='[state]' value='[Consultants].[state]' />
+          <map key='[target_pop]' value='[Target Population].[target_pop]' />
+          <map key='[title]' value='[Consultants].[title]' />
+          <map key='[yr]' value='[Certificate].[yr]' />
+          <map key='[yrs_of_exp]' value='[Expertise].[yrs_of_exp]' />
+          <map key='[zipcode]' value='[Consultants].[zipcode]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>c_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[c_id]</local-name>
+            <parent-name>[Certificate]</parent-name>
+            <remote-alias>c_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>certificate</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[certificate]</local-name>
+            <parent-name>[Certificate]</parent-name>
+            <remote-alias>certificate</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yr]</local-name>
+            <parent-name>[Certificate]</parent-name>
+            <remote-alias>yr</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Certificate]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C60:no:A1:C60:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>69</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[c_id (Consultants)]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>c_id</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>l_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[l_name]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>l_name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>f_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[f_name]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>f_name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>labor_category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[labor_category]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>labor_category</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[company]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>company</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>email</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[email]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>email</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>phone_no</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[phone_no]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>phone_no</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>data_source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[data_source]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>data_source</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zipcode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[zipcode]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>zipcode</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[address]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>address</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cul_competency</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[cul_competency]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>cul_competency</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>if_interested</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[if_interested]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>if_interested</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>notes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[notes]</local-name>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias>notes</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Consultants]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R243:no:A1:R243:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>304</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[c_id (Cultural competency)]</local-name>
+            <parent-name>[Cultural competency]</parent-name>
+            <remote-alias>c_id</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>format</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[format]</local-name>
+            <parent-name>[Cultural competency]</parent-name>
+            <remote-alias>format</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lcs</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[lcs]</local-name>
+            <parent-name>[Cultural competency]</parent-name>
+            <remote-alias>lcs</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Cultural competency]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C1257:no:A1:C1257:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>1256</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[c_id (Education)]</local-name>
+            <parent-name>[Education]</parent-name>
+            <remote-alias>c_id</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>degree_title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[degree_title]</local-name>
+            <parent-name>[Education]</parent-name>
+            <remote-alias>degree_title</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defree_title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[defree_title]</local-name>
+            <parent-name>[Education]</parent-name>
+            <remote-alias>defree_title</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>grad_ yr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[grad_ yr]</local-name>
+            <parent-name>[Education]</parent-name>
+            <remote-alias>grad_ yr</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Education]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D438:no:A1:D438:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>668</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[c_id (Expertise)]</local-name>
+            <parent-name>[Expertise]</parent-name>
+            <remote-alias>c_id</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>expertise</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[expertise]</local-name>
+            <parent-name>[Expertise]</parent-name>
+            <remote-alias>expertise</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yrs_of_exp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yrs_of_exp]</local-name>
+            <parent-name>[Expertise]</parent-name>
+            <remote-alias>yrs_of_exp</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Expertise]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C926:no:A1:C926:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>962</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>expertise</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[expertise (Expertise!LOV)]</local-name>
+            <parent-name>[Expertise_LOV]</parent-name>
+            <remote-alias>expertise</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>exp_area</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[exp_area]</local-name>
+            <parent-name>[Expertise_LOV]</parent-name>
+            <remote-alias>exp_area</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Expertise_LOV]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B40:no:A1:B40:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[c_id (Federal Project)]</local-name>
+            <parent-name>[Federal Project]</parent-name>
+            <remote-alias>c_id</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>project</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[project]</local-name>
+            <parent-name>[Federal Project]</parent-name>
+            <remote-alias>project</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Federal Project]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B211:no:A1:B211:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>210</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[c_id (Target Population)]</local-name>
+            <parent-name>[Target Population]</parent-name>
+            <remote-alias>c_id</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>target_pop</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[target_pop]</local-name>
+            <parent-name>[Target Population]</parent-name>
+            <remote-alias>target_pop</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Target Population]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B332:no:A1:B332:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>331</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+      <column caption='c id (Consultants)' datatype='integer' name='[c_id (Consultants)]' role='dimension' type='ordinal' />
+      <column caption='c id (Cultural competency)' datatype='integer' name='[c_id (Cultural competency)]' role='dimension' type='ordinal' />
+      <column caption='c id (Education)' datatype='integer' name='[c_id (Education)]' role='dimension' type='ordinal' />
+      <column caption='c id (Expertise)' datatype='integer' name='[c_id (Expertise)]' role='dimension' type='ordinal' />
+      <column caption='c id (Federal Project)' datatype='integer' name='[c_id (Federal Project)]' role='dimension' type='ordinal' />
+      <column caption='c id (Target Population)' datatype='integer' name='[c_id (Target Population)]' role='dimension' type='ordinal' />
+      <column caption='C Id' datatype='integer' name='[c_id]' role='dimension' type='ordinal' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Certificate' datatype='string' name='[certificate]' role='dimension' type='nominal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Company' datatype='string' name='[company]' role='dimension' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Cul Competency' datatype='string' name='[cul_competency]' role='dimension' type='nominal' />
+      <column caption='Data Source' datatype='string' name='[data_source]' role='dimension' type='nominal' />
+      <column caption='Defree Title' datatype='string' name='[defree_title]' role='dimension' type='nominal' />
+      <column caption='Degree Title' datatype='string' name='[degree_title]' role='dimension' type='nominal' />
+      <column caption='Email' datatype='string' name='[email]' role='dimension' type='nominal' />
+      <column caption='Exp Area' datatype='string' name='[exp_area]' role='dimension' type='nominal' />
+      <column caption='Expertise' datatype='string' name='[expertise]' role='dimension' type='nominal' />
+      <column caption='F Name' datatype='string' name='[f_name]' role='dimension' type='nominal' />
+      <column caption='Format' datatype='string' name='[format]' role='dimension' type='nominal' />
+      <column caption='Grad  Yr' datatype='integer' name='[grad_ yr]' role='dimension' type='quantitative' />
+      <column caption='If Interested' datatype='string' name='[if_interested]' role='dimension' type='nominal' />
+      <column caption='L Name' datatype='string' name='[l_name]' role='dimension' type='nominal' />
+      <column caption='Labor Category' datatype='string' name='[labor_category]' role='dimension' type='nominal' />
+      <column caption='Lcs' datatype='string' name='[lcs]' role='dimension' type='nominal' />
+      <column caption='Notes' datatype='string' name='[notes]' role='dimension' type='nominal' />
+      <column caption='Phone No' datatype='string' name='[phone_no]' role='dimension' type='nominal' />
+      <column caption='Project' datatype='string' name='[project]' role='dimension' type='nominal' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Target Pop' datatype='string' name='[target_pop]' role='dimension' type='nominal' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column caption='Yr' datatype='integer' name='[yr]' role='dimension' type='quantitative' />
+      <column caption='Yrs Of Exp' datatype='integer' name='[yrs_of_exp]' role='measure' type='quantitative' />
+      <column caption='Zipcode' datatype='string' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.782609' measure-ordering='alphabetic' measure-percentage='0.217391' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Individule Profile'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4C337649-5815-476D-801A-C45DB0B54CC1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Individule Profile'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3F4CA5D6-F5CD-4FFE-9E9A-0C709C0B8315}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Individule Profile' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

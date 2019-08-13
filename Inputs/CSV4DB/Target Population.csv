@@ -1,0 +1,332 @@
+c_id,target_pop
+1,Female population
+1,HIV/AIDS population
+1,LGBTQ
+1,Youth
+2,HIV/AIDS population
+2,Maternal and Children
+3,Elderly population
+3,Female population
+3,HIV/AIDS population
+3,Maternal and Children
+3,Youth
+4,Female population
+4,Maternal and Children
+4,Rural Health
+6,Female population
+6,Maternal and Children
+7,Female population
+7,HIV/AIDS population
+7,Infants
+7,Maternal and Children
+7,Youth
+8,HIV/AIDS population
+8,Rural Health
+8,Youth
+10,HIV/AIDS population
+11,Maternal and Children
+12,Female population
+12,HIV/AIDS population
+12,Infants
+12,Maternal and Children
+12,People with disability
+13,HIV/AIDS population
+13,Maternal and Children
+13,Rural Health
+13,Youth
+14,HIV/AIDS population
+14,Maternal and Children
+14,Rural Health
+17,HIV/AIDS population
+17,Maternal and Children
+17,Rural Health
+18,HIV/AIDS population
+18,Homeless population
+20,Female population
+20,HIV/AIDS population
+21,HIV/AIDS population
+21,Youth
+22,Female population
+22,HIV/AIDS population
+22,Maternal and Children
+23,Early Childhood
+23,Infants
+23,Maternal and Children
+23,Youth
+24,Female population
+24,HIV/AIDS population
+24,Maternal and Children
+25,HIV/AIDS population
+25,LGBTQ
+26,Maternal and Children
+27,Female population
+27,HIV/AIDS population
+28,HIV/AIDS population
+28,Rural Health
+29,Female population
+29,HIV/AIDS population
+29,Low-income population
+29,People with disability
+30,HIV/AIDS population
+31,Female population
+31,Homeless population
+31,Low-income population
+31,Maternal and Children
+31,Youth
+32,Female population
+32,HIV/AIDS population
+32,Maternal and Children
+32,Youth
+33,Female population
+33,HIV/AIDS population
+33,Low-income population
+33,Maternal and Children
+33,People with disability
+33,Tribal Home Visiting
+34,Homeless population
+34,LGBTQ
+34,Maternal and Children
+34,Youth
+35,Female population
+35,Maternal and Children
+36,Female population
+36,HIV/AIDS population
+36,Youth
+37,HIV/AIDS population
+38,HIV/AIDS population
+39,Homeless population
+39,Low-income population
+40,HIV/AIDS population
+40,Maternal and Children
+41,Maternal and Children
+42,Elderly population
+42,Female population
+42,HIV/AIDS population
+42,Maternal and Children
+42,Rural Health
+42,Youth
+44,LGBTQ
+44,Maternal and Children
+44,Youth
+45,HIV/AIDS population
+46,Maternal and Children
+47,Early Childhood
+47,Female population
+47,HIV/AIDS population
+47,Maternal and Children
+49,Elderly population
+49,Maternal and Children
+49,People with disability
+49,Youth
+50,HIV/AIDS population
+51,HIV/AIDS population
+51,Infants
+51,Maternal and Children
+51,Youth
+52,Female population
+52,HIV/AIDS population
+52,Maternal and Children
+52,Tribal Home Visiting
+52,Youth
+53,HIV/AIDS population
+53,Maternal and Children
+53,People with disability
+53,Youth
+54,Female population
+54,HIV/AIDS population
+54,Maternal and Children
+54,Youth
+55,HIV/AIDS population
+55,Youth
+56,Female population
+56,HIV/AIDS population
+56,Infants
+56,Maternal and Children
+56,Youth
+57,HIV/AIDS population
+57,Maternal and Children
+57,Rural Health
+57,Youth
+59,HIV/AIDS population
+59,Maternal and Children
+59,People with disability
+60,Female population
+60,Maternal and Children
+60,Youth
+61,LGBTQ
+61,Maternal and Children
+61,Tribal Home Visiting
+61,Youth
+62,HIV/AIDS population
+62,Low-income population
+62,Maternal and Children
+62,Rural Health
+62,Youth
+63,Infants
+63,Maternal and Children
+63,Tribal Home Visiting
+63,Youth
+64,Female population
+64,HIV/AIDS population
+64,Youth
+65,HIV/AIDS population
+65,Maternal and Children
+66,Elderly population
+66,Maternal and Children
+66,Rural Health
+67,Female population
+67,HIV/AIDS population
+67,Maternal and Children
+67,Youth
+68,Rural Health
+69,Maternal and Children
+70,HIV/AIDS population
+70,Infants
+70,Maternal and Children
+71,Female population
+71,HIV/AIDS population
+71,Infants
+71,Maternal and Children
+72,HIV/AIDS population
+73,Female population
+73,HIV/AIDS population
+73,Low-income population
+73,Rural Health
+74,Rural Health
+75,Female population
+75,HIV/AIDS population
+76,Female population
+76,HIV/AIDS population
+76,Maternal and Children
+76,Public Health
+77,HIV/AIDS population
+77,Maternal and Children
+77,Youth
+78,HIV/AIDS population
+78,Maternal and Children
+78,Rural Health
+78,Youth
+79,Female population
+79,Maternal and Children
+79,Rural Health
+80,Female population
+80,Maternal and Children
+80,People with disability
+82,Maternal and Children
+82,Youth
+83,HIV/AIDS population
+83,Maternal and Children
+84,HIV/AIDS population
+85,Maternal and Children
+85,Tribal Home Visiting
+85,Youth
+86,HIV/AIDS population
+86,Maternal and Children
+86,Rural Health
+86,Youth
+87,Female population
+88,Female population
+88,Homeless population
+88,Maternal and Children
+88,People with disability
+89,Early Childhood
+89,Maternal and Children
+90,HIV/AIDS population
+90,Maternal and Children
+90,People with disability
+90,Rural Health
+92,Epidemiology
+92,HIV/AIDS population
+95,Female population
+95,HIV/AIDS population
+95,Maternal and Children
+98,HIV/AIDS population
+101,Maternal and Children
+106,HIV/AIDS population
+116,HIV/AIDS population
+117,HIV/AIDS population
+118,HIV/AIDS population
+120,HIV/AIDS population
+120,Rural Health
+133,Female population
+133,HIV/AIDS population
+135,HIV/AIDS population
+135,LGBTQ
+137,Epidemiology
+140,HIV/AIDS population
+144,HIV/AIDS population
+144,Maternal and Children
+144,Youth
+146,Female population
+146,HIV/AIDS population
+147,HIV/AIDS population
+150,HIV/AIDS population
+152,Maternal and Children
+154,HIV/AIDS population
+155,HIV/AIDS population
+155,Youth
+156,Female population
+156,HIV/AIDS population
+156,Maternal and Children
+159,HIV/AIDS population
+163,HIV/AIDS population
+165,Epidemiology
+169,Female population
+169,HIV/AIDS population
+169,Maternal and Children
+171,HIV/AIDS population
+181,Early Childhood
+181,Maternal and Children
+186,HIV/AIDS population
+186,Malaria
+186,Maternal and Children
+189,HIV/AIDS population
+195,HIV/AIDS population
+196,HIV/AIDS population
+197,HIV/AIDS population
+197,Maternal and Children
+200,HIV/AIDS population
+201,HIV/AIDS population
+202,Early Childhood
+202,HIV/AIDS population
+202,Maternal and Children
+202,Orphans
+206,HIV/AIDS population
+206,LGBTQ
+206,Maternal and Children
+206,People with disability
+206,Youth
+208,Maternal and Children
+210,HIV/AIDS population
+211,HIV/AIDS population
+213,Early Childhood
+213,Maternal and Children
+213,Youth
+215,Early Childhood
+215,Maternal and Children
+215,Tribal Home Visiting
+216,Early Childhood
+216,Female population
+216,Infants
+216,Maternal and Children
+218,Early Childhood
+218,Maternal and Children
+219,Early Childhood
+219,Maternal and Children
+222,Early Childhood
+222,Maternal and Children
+223,Early Childhood
+223,Maternal and Children
+223,People with disability
+223,Tribal Home Visiting
+227,Rural Health
+227,Tribal Home Visiting
+228,Early Childhood
+228,Maternal and Children
+230,Early Childhood
+230,Maternal and Children
+235,HIV/AIDS population
+240,Maternal and Children
+241,Maternal and Children
+242,Homeless population
+242,Youth
