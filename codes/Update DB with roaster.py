@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[109]:
-
-
 import docx2txt
 import pycountry
 import re
@@ -12,10 +6,6 @@ from openpyxl import load_workbook
 from openpyxl.styles import Font
 from openpyxl.styles import Alignment
 import time
-
-
-# In[110]:
-
 
 # Check difference
 wb = load_workbook("C:\\Users\\Jing Li\\Desktop\\cv2db\\project\\Inputs\\master roster.xlsx")
@@ -42,10 +32,6 @@ print("Updating ...")
 # Time Delay for 1 second
 time.sleep(1)
 
-
-# In[111]:
-
-
 #Functions
 
 # Education
@@ -63,11 +49,9 @@ def check_deg (p_edu):
     return None
     
 def check_yr(edu):
-    return re.search(r'\b\d{4}\b', edu).group(0)
-
-
-# In[112]:
-
+    if re.search(r'\b\d{4}\b', edu):
+        return re.search(r'\b\d{4}\b', edu).group(0)
+    return None
 
 #Load worksheet
 ws_fp = wb_db["Federal Project"]
@@ -185,17 +169,6 @@ for i in diff: # i is the id of consultant to be updated
                 ws_cul['A{}'.format(len(list(ws_cul.values)) )].font = Font(bold=True)
                 ws_cul['A{}'.format(len(list(ws_cul.values)) )].alignment = Alignment(horizontal='center')    
 
-
-# In[113]:
-
-
 #Save
 wb_db.save("C:\\Users\\Jing Li\\Desktop\\cv2db\\project\\Inputs\\Consultants Database.xlsx")
 print("Consultant(s) with id{} updated finished :D".format(diff))
-
-
-# In[ ]:
-
-
-
-

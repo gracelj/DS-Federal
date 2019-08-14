@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[120]:
-
-
 import docx2txt
 import pycountry
 import re
@@ -15,16 +9,6 @@ import time
 
 name = input("Please input file name (i.e. consultant's name)")
 text = docx2txt.process("C:\\Users\\Jing Li\\Desktop\\cv2db\\project\\Inputs\\{}.docx".format(name))
-
-
-# In[45]:
-
-
-# import os
-# os.getcwd()
-
-
-# In[46]:
 
 
 # Education
@@ -43,10 +27,6 @@ def CheckDegree (p_edu):
                 p_degree.append(i)
                 break
     return p_degree
-
-
-# In[47]:
-
 
 #Language
 
@@ -95,9 +75,6 @@ for k, v in population.items():
             break
 
 
-# In[71]:
-
-
 #Extract Certificate
 certificates = {'Advanced Cardiovascular Life Support (ACLS)': ["ACLS"],
                 'American Academy of HIV Medicine Specialist (AAHIVS)': ["AAHIVS"],
@@ -127,10 +104,6 @@ for k, v in certificates.items():
         if re.search(i, text):
                 p_certificate.append(k)
                 break
-
-
-# In[72]:
-
 
 #Extract Expertises
 expertises = {'Coaching & Training': ["coach"],
@@ -187,10 +160,6 @@ for k, v in expertises.items():
                 e.append(k)
                 break
 
-
-# In[73]:
-
-
 #Extract Federal Project
 fp = {'Rural Health (FORHP)': ['FORHP'],
       'Health Centers (BPHC)': ['BPHC'],
@@ -241,33 +210,18 @@ for k, v in fp.items():
                 project.append(k)
                 break
 
-
-# In[74]:
-
-
 #Email:
 pattern = r"\b[\w\.\d]+\@\w+\.\w+\b"
 email = re.search(pattern, text).group(0)
-
-
-# In[75]:
-
 
 #Phone
 pattern = r"\(?\d{3}\)?.\d{3}[^\d]\d{4}\b"
 phone = re.search(pattern, text).group(0)
 
 
-# In[76]:
-
-
 #zipcode
 pattern = r"\b\d{5}\b"
 zipcode = re.search(pattern, text).group(0)
-
-
-# In[77]:
-
 
 #state
 s = ["Alabama","Alaska","Arizona","Arkansas","California","Colorado",
@@ -343,18 +297,11 @@ if state in us_state_abbrev:
     state = us_state_abbrev[state]
 
 
-# In[111]:
-
-
 #Country
 if state:
     country = "USA"
 else:
     country = None
-
-
-# In[78]:
-
 
 #city
 pattern =  "|".join(s+list(us_state_abbrev.values()))
@@ -365,26 +312,15 @@ if re.search(pattern, text):
 else:
     city = None
 
-
-# In[79]:
-
-
 #State Worked
 sta_worked = []
 for k, v in us_state_abbrev.items():
     if re.search(k, text) or re.search(v, text):
         sta_worked.append(k)
 
-
-# In[80]:
-
-
 #Name
 f_name = " ".join(name.split(" ")[:-1])
 l_name = name.split(" ")[-1]
-
-
-# In[136]:
 
 
 #Check if this consultant is in roaster already
@@ -432,4 +368,3 @@ else:
     #Save
     wb.save("C:\\Users\\Jing Li\\Desktop\\cv2db\\project\\Inputs\\master roster.xlsx")
     print("{} has been successfully recorded in the roaster!".format(name))
-
